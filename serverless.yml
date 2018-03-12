@@ -1,0 +1,10 @@
+service: github-contribute-checker
+provider:
+  name: aws
+  runtime: nodejs6.10
+  region: ap-northeast-1
+functions:
+  check:
+    handler: handler.check_contribute
+    events:
+      - schedule: cron(* 10 * * ? *)
