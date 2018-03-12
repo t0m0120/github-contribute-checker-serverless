@@ -10,7 +10,7 @@ $ yarn
 
 setting
 `handeler.js`でgithubName/discoredのチャンネルWebhookを入力  
-`serverless.yml`のevents - schedule: へ時間を指定。
+`serverless.yml`のevents schedule: へ時間を指定。
 
 ```
 sls deploy
