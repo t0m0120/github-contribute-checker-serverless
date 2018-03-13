@@ -13,5 +13,5 @@ setting
 `serverless.yml`のevents schedule: へ時間を指定。
 
 ```
-sls deploy
+$ sls deploy
 ```
